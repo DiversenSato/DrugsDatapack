@@ -1,0 +1,18 @@
+{
+    "display": {
+        "title": "Drugs",
+        "description": "Implements drugs and withdrawal",
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{CustomModelData: 614001}"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:drugs",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
