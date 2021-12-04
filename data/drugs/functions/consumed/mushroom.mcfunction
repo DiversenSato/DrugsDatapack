@@ -8,5 +8,6 @@ execute unless score @p drugs.score < maxScore drugs.const run scoreboard player
 item replace entity @p weapon.mainhand with air
 
 playsound entity.player.burp neutral @a ~ ~ ~ 1 2
+playsound ambient.crimson_forest.mood neutral @p ~ ~ ~ 1 1.3
 effect give @p poison 7 0 true
 effect give @p night_vision 10453 0 true
