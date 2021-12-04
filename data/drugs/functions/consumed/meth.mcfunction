@@ -9,4 +9,4 @@ item replace entity @p weapon.mainhand with air
 
 playsound entity.player.burp neutral @a ~ ~ ~ 1 2
 effect give @p haste 10453 0 true
-effect give @p saturation 2 255 true
+effect give @p saturation 15 255 true

@@ -1,1 +1,0 @@
-/give @p written_book{pages:["{\"text\":\"Meth\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/give @p carrot_on_a_stick{display:{Name:'{\\\"text\\\":\\\"Meth\\\",\\\"italic\\\":false}'},CustomModelData:614001}\"}}"],title:"Book of All Known Drugs",author:IDuckle}
