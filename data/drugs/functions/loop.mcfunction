@@ -16,3 +16,5 @@ execute at @a[scores={drugs.deaths=1..}] run function drugs:sub_routines/reset
 
 #Check triggers for drug dealers
 execute at @a[scores={drugs.dealers=1}] run function drugs:give/check_drug
+kill @e[type=item,nbt={Item:{tag:{author:IDuckle,title:"Book of All Known Drugs"}}}]
+execute at @a[scores={drugs.dealers=1},nbt=!{Inventory:[{tag:{author:IDuckle,title:"Book of All Known Drugs"}}]}] run function drugs:give_drug_book

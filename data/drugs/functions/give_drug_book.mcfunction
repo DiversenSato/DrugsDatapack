@@ -1,0 +1,3 @@
+clear @p written_book{author:"IDuckle",title:"Book of All Known Drugs"}
+give @p written_book{pages:['["",{"text":"Meth","bold":true,"clickEvent":{"action":"run_command","value":"/trigger drugs.giveMeth"}},"\\n","The physical effects of methamphetamine can include loss of appetite, hyperactivity and increased movement."]','{"text":"Mushroom","clickEvent":{"action":"run_command","value":"/trigger drugs.giveShroom"}}'],title:"Book of All Known Drugs",author:IDuckle}
+say gave book
