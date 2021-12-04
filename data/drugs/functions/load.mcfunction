@@ -31,12 +31,3 @@ scoreboard objectives add drugs.var dummy
 
 #Tracks deaths to reset all drug effects
 scoreboard objectives add drugs.deaths deathCount
-
-#Keeps track of drug dealers
-scoreboard objectives add drugs.dealers dummy
-scoreboard players set IDuckle drugs.dealers 1
-
-scoreboard objectives add drugs.giveMeth trigger
-scoreboard objectives add drugs.giveShroom trigger
-scoreboard players enable @a[scores={drugs.dealers=1}] drugs.giveMeth
-scoreboard players enable @a[scores={drugs.dealers=1}] drugs.giveShroom
