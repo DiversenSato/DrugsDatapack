@@ -15,5 +15,5 @@ execute at @a[scores={drugs.withdrawal=..0,drugs.state=1..2}] run function drugs
 execute at @a[scores={drugs.deaths=1..}] run function drugs:sub_routines/reset
 
 #Sober healthy people:
-effect clear @a[scores={drugs.score=..0}] haste
-effect clear @a[scores={drugs.score=..0}] night_vision
+execute at @a unless score @p drugs.score matches 1.. run effect clear @p haste
+execute at @a unless score @p drugs.score matches 1.. run effect clear @p night_vision

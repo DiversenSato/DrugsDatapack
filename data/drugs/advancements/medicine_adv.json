@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "drugs:medicine"
+            }
+        }
+    },
+    "rewards": {
+        "function": "drugs:give/medicine"
+    }
+}
