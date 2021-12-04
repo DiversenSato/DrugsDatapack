@@ -13,3 +13,7 @@ execute at @a[scores={drugs.withdrawal=..0,drugs.state=1..2}] run function drugs
 
 #Reset all players who have died
 execute at @a[scores={drugs.deaths=1..}] run function drugs:sub_routines/reset
+
+#Sober healthy people:
+effect clear @a[scores={drugs.score=..0}] haste
+effect clear @a[scores={drugs.score=..0}] night_vision
