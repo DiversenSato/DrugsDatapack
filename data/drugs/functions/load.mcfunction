@@ -1,5 +1,3 @@
-function drugs:uninstall
-
 scoreboard objectives add drugs.coas minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add drugs.score dummy
 scoreboard objectives add drugs.withdrawal dummy
