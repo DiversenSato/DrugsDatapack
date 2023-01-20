@@ -1,4 +1,4 @@
-scoreboard players operation halfWithdrawal drugs.var = @p drugs.mxWthdrwl
-scoreboard players operation halfWithdrawal drugs.var /= 2 drugs.const
+scoreboard players operation @p drugs.halfWithdrawal = @p drugs.mxWthdrwl
+scoreboard players operation @p drugs.halfWithdrawal /= 2 drugs.const
 
-execute if score halfWithdrawal drugs.var > @p drugs.withdrawal if score @p drugs.state matches 1 run function drugs:states/sober
+execute if score @p drugs.halfWithdrawal > @p drugs.withdrawal if score @p drugs.state matches 1 run function drugs:states/sober

@@ -8,3 +8,6 @@ execute if score @p drugs.score matches 1.. run tellraw @p {"text":"You feel sli
 
 playsound custom.pills neutral @a ~ ~ ~ 1
 item replace entity @p weapon.mainhand with air
+
+execute if score @p drugs.score matches ..0 run effect clear @p night_vision
+execute if score @p drugs.score matches ..0 run effect clear @p haste

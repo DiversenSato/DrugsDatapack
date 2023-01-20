@@ -26,6 +26,7 @@ scoreboard players set 209072 drugs.const 209072
 
 #Holds the variables for this datapack
 scoreboard objectives add drugs.var dummy
+scoreboard objectives add drugs.halfWithdrawal dummy
 
 #Tracks deaths to reset all drug effects
 scoreboard objectives add drugs.deaths deathCount

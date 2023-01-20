@@ -6,3 +6,4 @@ scoreboard objectives remove drugs.state
 scoreboard objectives remove drugs.const
 scoreboard objectives remove drugs.var
 scoreboard objectives remove drugs.deaths
+scoreboard objectives remove drugs.halfWithdrawal
