@@ -7,7 +7,7 @@ scoreboard objectives add drugs.mxWthdrwl dummy
 #0/null: Clean
 #1: Drugged
 #2: Sober
-#3: Withdrawn
+#3: Withdrawal
 scoreboard objectives add drugs.state dummy
 
 #Holds the constants of this datapack
