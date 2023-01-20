@@ -1,10 +1,10 @@
 {
     "display": {
-        "title": "IDuckle",
+        "title": "Diversanto",
         "description": "",
         "icon": {
             "item": "minecraft:player_head",
-            "nbt": "{SkullOwner: 'IDuckle'}"
+            "nbt": "{SkullOwner: \"Diversanto\"}"
         },
         "show_toast": false,
         "announce_to_chat": false
